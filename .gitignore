@@ -1,0 +1,25 @@
+# Never commit MIMIC data or anything derived from it (PhysioNet data use agreement)
+*.csv
+*.csv.gz
+*.parquet
+*.feather
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*.duckdb
+data/
+outputs/
+runs/
+workdir/
+mimic*/
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
